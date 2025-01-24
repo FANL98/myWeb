@@ -1,0 +1,37 @@
+{
+    "plugins": ["stylelint-order"],
+    "rules": {
+        "order/order": [
+            "custom-properties",
+            "dollar-variables",
+            "declarations",
+            {
+                "type": "at-rule",
+                "name": "media"
+            },
+            "rules"
+        ],
+        "order/properties-order": [
+            "position",
+            "top",
+            "right",
+            "bottom",
+            "left",
+            "display",
+            "flex",
+            "justify-content",
+            "align-items",
+            "width",
+            "height",
+            "margin",
+            "padding",
+            "background",
+            "color",
+            "font",
+            "text-align",
+            "border",
+            "box-shadow",
+            "transition"
+        ]
+    }
+}
